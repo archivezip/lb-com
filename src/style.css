@@ -1,105 +1,180 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-*{
+*
+{
     font-family: 'Quicksand', sans-serif;
 }
 
-body{
+body
+{
     margin: 0;
     padding: 0;
 }
 
 div.header
 {
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px 20px;
-    z-index: 1000;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
-    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    z-index: 1000;
     }
 
     div.header p{
-        font-size: 25px;
+        margin: 0px 0px;
         font-weight: 500;
     }
 
-    div.header div {
+    div.header div{
+        margin: 0px 0px;
+        padding: 0px;
         display: inline-block;
-        transform: scale(0.75);
     }
 
     div.header a
     {
-        padding: 20px;
+        margin: 5px;
     }
 
-div.introduction {
-    color: black;
+div.highlight
+{
+    background-color: turquoise;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    box-shadow: 0px 0px 10px 0px white;
+    }
+
+div.introduction 
+{
+    color: white;
+    background-color: #121212;
+    margin: 0vh 1vw;
     }
 
     div.introduction h2 {
-        text-align: center;
+        text-align: left;
     }
 
     div.introduction h3{
-        margin: 20px;
+        color: turquoise;
         text-align: left; 
     }
 
-    div.introduction div{
-        margin: 20px;
-        text-align: left;
-        padding-bottom: 20px;    
+    div.introduction p{
+        text-align: left;  
     }
 
     div.introduction img{
-        margin: 20px;
-        border-radius: 25px;
-        float: inline-end;
+        width: fit-content;
+        float: right;
+        margin-left: 1vh;
+        border-radius: 1vh;
+        border-style: solid;
+        border-color: turquoise;
     }
 
-div.projects {
-    color: black;
+div.projects 
+{
+    color: white;
+    margin: 1vh 1vw;
     text-align: left;
-    }
-    
-    div.projects h2 {
-        text-align: center;
     }
 
     div.projects h3{
-        margin: 20px;
-        text-align: left; 
+        color: turquoise;
     }
 
-    div.projects p{
-        margin: 20px;
-        text-align: left;
+div.project-gallery-big 
+{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    }    
+    
+    div.gallery-big 
+    {   
+        border: 1px solid turquoise;
+        float: left;
+        height: auto;
+        margin: 1vh 1vw;
+        }
+
+        div.gallery-big:hover {
+        border: 1px solid white;
+        }
+
+        div.gallery-big img {
+        width: 100%;
+        max-width: 600px;
+        }
+
+        div.gallery-big h1 {
+        color: turquoise;
+        text-align: center;
+        font-size: medium;
+        font-weight: 500;
+        }
+
+        div.gallery-big h2 {
+        text-align: center;
+        font-size: larger;
+        font-weight: 400;
+        }
+
+        div.gallery-big h3 {
+        color: turquoise;
+        text-align: center;
+        font-size: x-small;
+        font-weight: 400;
+        }
+
+div.project-gallery-small
+{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
     }
 
+    div.gallery-small 
+    {
+        border: 1px solid turquoise;
+        float: left;
+        height: auto;
+        margin: 1vh 1vw;
+        }
+    
+        div.gallery-small:hover {
+        border: 1px solid white;
+        }
 
-div.gallery {
-    margin: 20px;
-    border: 1px solid rgb(201, 201, 201);
-    float: left;
-    width: 180px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+        div.gallery-small img {
+        width: 100%;
+        max-width: 300px;
+        }
+
+        div.gallery-small h1 {
+        color: turquoise;
+        text-align: center;
+        font-size: x-small;
+        font-weight: 500;
+        }
+
+        div.gallery-small h2 {
+        text-align: center;
+        font-size:  small;
+        font-weight: 400;
+        }
+
+        div.gallery-small h3 {
+        color: turquoise;
+        text-align: center;
+        font-size:  xx-small;
+        font-weight: 400;
+        }
+
