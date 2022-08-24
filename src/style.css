@@ -13,6 +13,7 @@ body
 
 div.header
 {
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
@@ -178,3 +179,30 @@ div.project-gallery-small
         font-weight: 400;
         }
 
+div.footer
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    z-index: 1000;
+    }
+
+    div.footer h2  {
+        color: white;
+        text-align: center;
+        font-size: medium;
+        font-weight: 500;
+    }
+
+    div.footer h3  {
+        color: turquoise;
+        text-align: center;
+        font-size: small;
+        font-weight: 400;
+    }
