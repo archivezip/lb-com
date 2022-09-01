@@ -258,8 +258,8 @@ div.project-detail
         border-style: solid;
         border-color: turquoise;
     }
-
 .ravebeat:hover {content: url(images/ravebeat.gif);}
 .soulflame:hover {content: url(images/soulflame.gif);}
 .terrain:hover {content: url(images/terrain.gif);}
 .gameengine:hover {content: url(images/gameengine.gif);}
+
