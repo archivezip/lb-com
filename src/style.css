@@ -154,7 +154,6 @@ div.project-gallery-big
         font-size: x-small;
         font-weight: 400;
         }
-
 div.project-gallery-small
 {
     display: flex;
@@ -258,4 +257,13 @@ div.project-detail{
         border-style: solid;
         border-color: turquoise;
     }
+<<<<<<< Updated upstream
 }
+=======
+
+
+.ravebeat:hover {content: url(images/ravebeat.gif);}
+.soulflame:hover {content: url(images/soulflame.gif);}
+.terrain:hover {content: url(images/terrain.gif);}
+.gameengine:hover {content: url(images/gameengine.gif);}
+>>>>>>> Stashed changes
