@@ -227,7 +227,8 @@ div.footer
         font-weight: 400;
     }
 
-div.project-detail{
+div.project-detail
+{
     color: white;
     background-color: #121212;
     margin: 0vh 1vw;
@@ -257,13 +258,8 @@ div.project-detail{
         border-style: solid;
         border-color: turquoise;
     }
-<<<<<<< Updated upstream
-}
-=======
-
 
 .ravebeat:hover {content: url(images/ravebeat.gif);}
 .soulflame:hover {content: url(images/soulflame.gif);}
 .terrain:hover {content: url(images/terrain.gif);}
 .gameengine:hover {content: url(images/gameengine.gif);}
->>>>>>> Stashed changes
