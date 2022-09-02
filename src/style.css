@@ -157,6 +157,7 @@ div.project-gallery-big
         font-size: x-small;
         font-weight: 400;
         }
+        
 div.project-gallery-small
 {
     display: flex;
@@ -261,14 +262,13 @@ div.project-extra
 
     div.project-extra img {
         width: 100%;
-        max-width: 250px;
+        max-width: 200px;
         height: auto;
-        float: right;
-        margin-left: 1vh;
-        margin-bottom: 1vh;
+        margin: 1vh;
         border-radius: 1vh;
         border-style: solid;
         border-color: turquoise;
+        float: left;
     }
 
 div.bottom{
