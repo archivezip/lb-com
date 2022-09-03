@@ -69,6 +69,7 @@ div.highlight
     background-color: turquoise;
     left: 0;
     width: 100%;
+    min-height: 5px;
     height: 5px;
     box-shadow: 0px 0px 10px 0px white;
     }
@@ -77,7 +78,7 @@ div.introduction
 {
     color: white;
     background-color: #121212;
-    margin: 1vh 1vw;
+    margin: 1vh 2vw;
     }
 
     div.introduction h2 {
@@ -106,7 +107,7 @@ div.introduction
 div.projects 
 {
     color: white;
-    margin: 1vh 1vw;
+    margin: 1vh 2vw;
     text-align: left;
     }
 
@@ -206,7 +207,7 @@ div.project-detail
 {
     color: white;
     background-color: #121212;
-    margin: 1vh 1vw;
+    margin: 1vh 2vw;
     }
 
     div.project-detail h2 {
@@ -244,7 +245,7 @@ div.project-extra
 {
     color: white;
     background-color: #121212;
-    margin: 1vh 1vw;
+    margin: 1vh 2vw;
     }
 
     div.project-extra h2 {
@@ -264,7 +265,7 @@ div.project-extra
         width: 100%;
         max-width: 200px;
         height: auto;
-        margin: 1vh;
+        margin: 1vh 2vh 0vh 1vh;
         border-radius: 1vh;
         border-style: solid;
         border-color: turquoise;
