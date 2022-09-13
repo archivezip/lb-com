@@ -272,13 +272,85 @@ div.project-extra
         float: left;
     }
 
-div.bottom{
+div.experience 
+{
+    color: white;
+    background-color: #121212;
+    margin: 1vh 2vw;
+    text-align: left;  
+    }
+
+    div.experience h3 {
+        color: turquoise;
+    }
+    
+    div.experience h4 {
+        font-size: medium;
+        margin: 0;
+    }
+
+    div.experience h5 {
+        color: turquoise;
+        font-size: small;
+        margin: 0;
+    }
+
+    div.experience h6 {
+        font-size: small;
+        margin: 0;
+    }
+
+    div.exp-group{
+        min-height: 150px;
+        padding-bottom: 1vh;
+    }
+
+    div.experience img {
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+        margin: 0vh 2vh 0vh 1vh;
+        border-radius: 1vh;
+        border-style: solid;
+        border-color: turquoise;
+        float: left;
+    }
+
+div.contact
+{
+    color: white;
+    background-color: #121212;
+    margin: 1vh 2vw;
+    }
+
+    div.contact h3 {
+        color: turquoise;
+        text-align: left; 
+    }
+
+    div.form-group {
+        align-items: center;
+        padding-bottom: 1vh;
+    }
+
+    div.contact textarea{
+        width: 98%;
+        padding-bottom: 1vh;
+    }
+
+    div.thanks {
+    color: white;
+    text-align: center;
+    }
+
+div.bottom
+{
     color: #121212;
     width: 100%;
     margin-top: auto;
-}
-div.footer
-{
+    }
+
+    div.footer {
     background-color: black;
     color: white;
     display: flex;
