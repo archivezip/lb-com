@@ -330,18 +330,30 @@ div.contact
 
     div.form-group {
         align-items: center;
-        padding-bottom: 1vh;
     }
 
     div.contact textarea{
         width: 98%;
-        padding-bottom: 1vh;
+        margin-bottom: 1vh;
     }
 
-    div.thanks {
-    color: white;
-    text-align: center;
+    div.contact input {
+        margin-bottom: 1vh;
     }
+    
+    input.form-long {
+        width: 98%;
+    }
+
+    input.form-short {
+        width: 40vw;
+    }
+    
+    div.thanks {
+        color: white;
+        text-align: center;
+    }
+    
 
 div.bottom
 {

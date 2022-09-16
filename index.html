@@ -207,18 +207,14 @@
     <div class="contact">
       <h3>Contact Me</h3>
       <p>Please use the contact form below to get in touch with me, feel free to ask for a current CV, source code for projects, additional Infomation about work experience or for any general questions or queries. </p>
-      <form action="https://formsubmit.co/el/yoboti" method="POST">
+      <form action="https://formsubmit.co/lilyburgham@gmail.com" method="POST">
+        <input type="text" name="name" class="form-short" placeholder="Name" required>
+        <input type="email" name="email" class="form-short" placeholder="Email Address" required>
+        <textarea placeholder="Your Message" name="message" rows="5" required></textarea>
+        <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
         <input type="hidden" name="_next" value="https://lilyburgham.com/thanks.html">
         <input type="hidden" name="_autoresponse" value="Thank you for contacting me at lilyburgham.com, I am very active and should respond within 24 hours.">
-       
-        <div class="form-group">
-          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-        </div>
-        <div>
-          <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+        <input type="hidden" name="_template" value="box">
       </form>
       <br>
     </div>
