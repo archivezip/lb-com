@@ -7,6 +7,7 @@
 
 body
 {
+    background-color: #121212;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -106,6 +107,7 @@ div.introduction
 
 div.projects 
 {
+    background-color: #121212;
     color: white;
     margin: 1vh 2vw;
     text-align: left;
@@ -117,6 +119,7 @@ div.projects
 
 div.project-gallery-big 
 {
+    background-color: #121212;
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
@@ -161,6 +164,7 @@ div.project-gallery-big
         
 div.project-gallery-small
 {
+    background-color: #121212;
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;

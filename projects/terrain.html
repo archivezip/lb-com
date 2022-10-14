@@ -4,13 +4,13 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="icon" href="src/images/icon.ico">
-      <link rel="stylesheet" href="src/style.css" />  
-      <title>Game Engine | Lily Burgham</title>
+      <link rel="icon" href="../src/images/icon.ico">
+      <link rel="stylesheet" href="../src/style.css" />  
+      <title>Realistic Terrain | Lily Burgham</title>
   </head>
   <body style="background-color:#121212;">
     <div class="header">
-      <a target="_self" href="index.html"><img src="src/images/near-noah.png" alt="icon" width="50" height="50"></img></a>
+      <a target="_self" href="index.html"><img src="../src/images/near-noah.png" alt="icon" width="50" height="50"></img></a>
       <a target="_self" href="index.html"><p>Lily Burgham's Portfolio</p></a>
       <div>
         <a href="https://www.linkedin.com/in/lilith-burgham/"><svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="35" height="35" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
@@ -20,32 +20,24 @@
     <div class="highlight"></div>
 
     <div class="project-detail">
-      <h2>Game Engine</h2>
-      <img src="src/images/gameengine.gif" alt="Realistic Terrain"></img>
-      <h3>Game Engine Architecture</h3>
+      <h2>Realistic Terrain</h2>
+      <img src="src/images/terrain.gif" alt="Realistic Terrain"></img>
+      <h3>Advanced Shader Programming</h3>
       <p>
-        Game Engine Architecture was a semester long university project in my third year which required me to create my own abstracted game engine using C++.
-        The first half of the project was to implement the basics, application setup, rendering engine, updates and input etc.. on our own.
-        The second half of the project expanded into a group project, where we would expand upon one members game engine to implement several features as a group.
+        Realistic Terrain was a university project for the Advanced Shader Programming module in my third year which required me to create a realistic piece of looking terrain created from a 50x50 plane using advanced shader programming techniques. <br>
       </p>
       <h3>Features</h3>
-      <li>Completely abstracted design - Allows for other APIs to be implemented and used in the engine </li>
-      <li>Rendering Pipline - Vertex/Index Buffers, Textures, Shaders, Uniforms</li>
-      <li>3D And 2D Renderer - 3D Renderer, 2D Text Renderer</li>
-      <li>Cameras - Moveable 3D and 2D Cameras </li>
-      <li>Resource Manager - Asset and Resource Manager</li>
-      <li>Logging System - Verbose and detailed logging system</li>
-      <li>Event System - Input Polling, Window, Key and Mouse Events</li>
-      <li>Audio System - Audio System, Audio Manager, Positional Audio</li>
-
-      <a href="https://github.com/IMAT3904/cw-archivezip"><p>Github Page - Solo Project</p></a>
-      <a href="https://github.com/IMAT3905/cw-2019-2020-group-3"><p>Github Page - Group Project</p></a>
-
+      <li>Applied a height map of the swiss alps from Terrain.party, for realistic geometry.</li>
+      <li>Plane is illuminated with basic phong lighting</li>
+      <li>Plane is coloured based on the height of the vertex, to show where snow, rock and grass would lay.</li>
+      <li>Angles of the geometry also change the colouring, to show areas where snow would settle and grass would grow.</li>
+      <li>Distance dependent tesselation to increase and decrease the geometry detail based on camera distance.</li>
+      <li>Texture blending to smooth the transition between textures, to make it look more natural.</li>
+      <li>Applied render distance fog to the scene.</li>
+      <li>A report explaining how the techniques work and explaining what they are for was also created for this project.</li>
+      <a href="https://github.com/archivezip/realistic-terrain"><p>Github Page</p></a>
     </div>
 
-
-
-    
     <div class="bottom">
       <div class="highlight"></div>
       <div class="footer">
@@ -53,6 +45,6 @@
         <h3>lilyburgham@gmail.com</h3>
       </div>
     </div>
-    <script src="src/app.js"></script>
+    <script src="../src/app.js"></script>
   </body>
 </html>
